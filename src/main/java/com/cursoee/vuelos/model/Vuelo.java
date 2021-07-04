@@ -15,7 +15,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class Vuelo {
 	@Id
 	@GeneratedValue(strategy= GenerationType.IDENTITY)
-	@JsonProperty(value="idVuelo)				// ",defaultValue = "0")
+	@JsonProperty(value="idVuelo")					//,defaultValue = "0")
 	private int idvuelo;
 	private String company;
 	private String fecha;
